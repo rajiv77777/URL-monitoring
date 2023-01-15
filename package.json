@@ -1,0 +1,22 @@
+{
+  "name": "url-monitoring-app",
+  "version": "1.0.0",
+  "description": "\"Monitors URL and provides the status code\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Rajiv",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "got": "^12.5.3",
+    "https": "^1.0.0",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20",
+    "url-exist": "^3.0.0"
+  }
+}
